@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Sistemas Operacionais</a>
+            <a href="sistema_operacional.html">GIT</a>
+            <a href="CMD.html">CMD</a>
+        </nav>
+        <main>
+            <h1>O que é Kernel ?</h1>
+            <article>O kernel é a a princiapl parte de um sistema operacional que gerencia recursos de hardware e fornece serviços para programas. Ele atua  quanto uma ponte entre o software e o hardware. Existem diferentes tipos de kernels, quanto monolíticos e microkernels, que variam em  quanto organizam e fornecem esses serviços.</article>
+            <br>
+            <h1>Funções Kernel:</h1>
+            <article>
+                Funções
+        Gerenciar recursos: o kernel consegue gerenciar vários recursos do computador para garantir que os processos tenham um acesso uniforme ao hardware. Por exemplo, cada programa precisa de um certo espaço na memória. O kernel fica responsável por alocar o valor necessário para sua execução.
+        <br>
+        Gerenciar dispositivos: periféricos e outros dispositivos conectados ao computador são gerenciados pelo kernel. Ao inserir um pendrive, por exemplo, o núcleo vai atuar na gestão da memória e na comunicação dos arquivos com os programas e hardware.
+
+        <h1>Tipos de Kernel:</h1>
+        <article>
+            <li>Kernel monolítico: os serviços do usuário e os serviços do kernel são implementados no mesmo espaço da memória. Isso acaba aumentando o tamanho do kernel e, consequentemente, do sistema operacional. Por outro lado, como não há espaços separados, a execução dos processos é mais rápida.</li>
+            <br>
+            <li>Microkernel: separa os serviços do usuário e os serviços do kernel em espaços diferentes. Apesar dele reduzir o tamanho do kernel e do sistema operacional, a comunicação entre os programas e serviços é feita com a ajuda de análise de mensagens, o que acaba diminuindo a velocidade de execução.
+            </li>
+            <br>
+            <li>Kernel híbrido: usa a velocidade do monolítico e a modularidade do micro. Ele traz um código no espaço dedicado ao kernel que permite uma execução mais rápida quando comparado ao espaço do usuário. Assim, alguns serviços de rede e sistemas de arquivos, por exemplo, são executados nessa área para reduzir a sobrecarga e aumentar o desempenho.</li>
+            <br>
+            <li>Nanokernel: como o próprio nome sugere, o nanokernel tem um código muito pequeno. O termo é usado para descrever um kernel que suporta uma resolução de clock de nanossegundos.</li>
+            <br>
+            <li>Exokernel: o exokernel permite customizações específicas em seu código. No entanto, a ideia consiste em aplicar poucas modificações e usá-las apenas quando necessário. Para fazer isso, é preciso ter um bom conhecimento, pois ele tem uma construção complexa. </li>
+      </article>
+            </article>
+        </main>
+    </header>
+</body>
+</html>

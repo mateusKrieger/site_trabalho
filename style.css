@@ -1,0 +1,48 @@
+
+nav{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+}
+  a {
+    display:grid;
+    padding: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+  }
+  body{
+    background-color: rgb(51, 50, 50);
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  img{
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    border-radius: 9%;
+    border-radius: 20px;
+    border-style: dotted;
+    border-color: rgb(255, 255, 255);
+    direction: flex;
+    
+  }
+
+.kernel{
+  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+}
+
+ li{
+  font-family: 'Times New Roman', Times, serif;
+ }
